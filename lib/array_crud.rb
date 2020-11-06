@@ -12,36 +12,36 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  designers = ["Jacqumues", "Raf Simons", "Karl Lagerfeld"]
-  designers.unshift("wow")
+  my_list = ["Jacqumues", "Raf Simons", "Karl Lagerfeld"]
+  my_list.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  designers = ["Jacqumues", "Raf Simons", "Karl Lagerfeld", "arrays!"]
-  designers.pop
+  my_list = ["Jacqumues", "Raf Simons", "Karl Lagerfeld", "arrays!"]
+  my_list.pop
 end
 
 def remove_element_from_start_of_array(array)
-  designers = ["wow", "Jacqumues", "Raf Simons", "Karl Lagerfeld", "arrays!"]
-  designers.shift
+  my_list = ["wow", "Jacqumues", "Raf Simons", "Karl Lagerfeld", "arrays!"]
+  my_list.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  designers = ["wow", "I", "am", "really", "learning", "arrays!"]
-  designers[2]
+  my_list = ["wow", "I", "am", "really", "learning", "arrays!"]
+  my_list[2]
 end
 
 def retrieve_first_element_from_array(array)
-  designers = ["wow", "I", "am", "really", "learning", "arrays!"]
-  designers[0]
+  my_list = ["wow", "I", "am", "really", "learning", "arrays!"]
+  my_list[0]
 end
 
 def retrieve_last_element_from_array(array)
-  designers = ["wow", "I", "am", "really", "learning", "arrays!"]
-  designers[5]
+  my_list = ["wow", "I", "am", "really", "learning", "arrays!"]
+  my_list[5]
 end
 
 def update_element_from_index(array, index_number, element)
-  designers = ["wow", "I", "am", "really", "learning", "arrays!"]
-  designers[4] = "totally"
+  my_list = ["wow", "I", "am", "really", "learning", "arrays!"]
+  my_list[4] = "totally"
 end
