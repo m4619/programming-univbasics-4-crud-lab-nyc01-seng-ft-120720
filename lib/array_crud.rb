@@ -7,7 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  my_list = ["Jacqumues", "Raf Simons", "Karl Lagerfeld"]
+  my_list = ["wow", "I", "am", "really", "learning"]
   my_list.push("arrays!")
 end
 
