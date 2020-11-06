@@ -7,8 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  designers = ["Jacqumues", "Raf Simons", "Karl Lagerfeld"]
-  designers.push("arrays!")
+  my_list = ["Jacqumues", "Raf Simons", "Karl Lagerfeld"]
+  my_list.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
